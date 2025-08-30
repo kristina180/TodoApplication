@@ -16,12 +16,12 @@ module.exports = {
   devtool: "source-map",
   devServer: {
     static: {
-      directory: path.join(__dirname, "public"), // доступ к index.html и др. статике
+      directory: path.join(__dirname, "public"),
     },
     hot: true,
     port: 3000,
-    open: true, // ← чтобы автоматически открывал в браузере
-    historyApiFallback: true, // если используешь SPA-роутинг
+    open: true,
+    historyApiFallback: true,
   },
   module: {
     rules: [
