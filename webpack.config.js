@@ -8,16 +8,20 @@ module.exports = {
     filename: "bundle.[contenthash].js",
     path: path.resolve(__dirname, "dist"),
     clean: true,
-    publicPath: "./",
+    publicPath: "/",
   },
   resolve: {
     extensions: [".tsx", ".ts", ".js"],
   },
   devtool: "source-map",
   devServer: {
-    static: "./public",
+    static: {
+      directory: path.join(__dirname, "public"), // доступ к index.html и др. статике
+    },
     hot: true,
     port: 3000,
+    open: true, // ← чтобы автоматически открывал в браузере
+    historyApiFallback: true, // если используешь SPA-роутинг
   },
   module: {
     rules: [
