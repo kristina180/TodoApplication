@@ -9,7 +9,8 @@ This app lets you add, complete, delete, and filter tasks with a beautiful pink-
 
 <p align="center">
   <strong>App Screenshot</strong><br />
-  <img src="https://github.com/user-attachments/assets/16e1a055-b162-4bf0-9373-e2dd7b1d1a5e" alt="App Screenshot" width="600" />
+  <img width="858" height="636" alt="image" src="https://github.com/user-attachments/assets/f01987ad-eeb1-4373-bbd7-9cefe0e62d5d" />
+
 </p>
 
 
