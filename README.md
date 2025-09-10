@@ -1,4 +1,3 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
 
 ## About
 A simple, elegant Todo application built with React and TypeScript.  
@@ -12,7 +11,6 @@ This app lets you add, complete, delete, and filter tasks with a beautiful pink-
   <img width="858" height="636" alt="image" src="https://github.com/user-attachments/assets/f01987ad-eeb1-4373-bbd7-9cefe0e62d5d" />
 
 </p>
-
 
 
 ## Features
@@ -33,8 +31,6 @@ This app lets you add, complete, delete, and filter tasks with a beautiful pink-
 | **Webpack**        | Module bundler for building and optimizing the project |
 | **Tailwind CSS**   | Utility-first CSS framework for styling      |
 | **MobX**           | State management                             |
-
-
 
 
 ## Getting Started
